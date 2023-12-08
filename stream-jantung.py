@@ -123,7 +123,7 @@ if st.button("Prediski Penyakit jantung"):
     # statment hasil dari prediksi :
     if (heart_prediction[0]==0):
         st.write(heart_prediction[0])
-        heart_diagnosis='Pasien tidak terkena penakit jantung'
+        heart_diagnosis='Pasien tidak terkena penyakit jantung'
         st.success(heart_diagnosis) # memberi background warna hijau
     else:
         st.write(heart_prediction[0])
